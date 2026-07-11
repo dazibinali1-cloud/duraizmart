@@ -3,7 +3,12 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://duraizmart.com"),
+  metadataBase: new URL("https://duraizmart-kk4g-sigma.vercel.app"),
+
+  verification: {
+  google: "On-VjTQdzTa4Iv51bmXOlBpvO9dkNRloUucGzfuCPK0",
+},
+
   title: {
     default: "Duraiz Mart — Ultra-Premium Luxury E-Commerce",
     template: "%s | Duraiz Mart",
@@ -21,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "Duraiz Mart",
     title: "Duraiz Mart — Ultra-Premium Luxury E-Commerce",
     description: "A cinematic, interactive luxury shopping experience with curated products and concierge commerce.",
-    url: "https://duraizmart.com",
+    url: "https://duraizmart-kk4g-sigma.vercel.app",
     images: [
       {
         url: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1200&q=85",
